@@ -8,6 +8,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin: 0;;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
 
 .navbar{
     display: flex;
@@ -59,8 +65,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 390px;
-    padding-left: 390px;
+    padding-right: 300px;
+    padding-left: 300px;
     
     
 }
@@ -91,10 +97,48 @@
 }
 
 .brand-img-container{
-    margin-right: 240px;
-    margin-left: 240px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .brand-img{
     max-width: 100%;
+    margin-bottom: 45px;
+}
+
+.feature-container{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 50px;
+    margin-top: 50px;
+    column-gap: 50px;
+    margin-bottom: 130px;
+}
+
+.feature-description{
+    align-content: center;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.feature-imgs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+
+.feature-img{
+    height: 242PX;
+    width: 242PX;
+}
+.feature-detail{
+    font-size: 16PX;
+    margin-bottom: 30px;
 }
