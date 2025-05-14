@@ -8,3 +8,93 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    padding-left: 240px;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+
+.manu{
+    padding-right: 240px;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.manu-item-container{
+    display: flex;
+    
+    align-items: center;
+}
+
+.manu ul li a{
+    text-decoration:none;
+
+}
+
+.manu-item{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600px;
+    color: black;
+}
+
+.manu-item a{
+    font-size: 18px;
+    font-weight: 600px;
+    color: black;
+}
+
+.brand-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 390px;
+    padding-left: 390px;
+    
+    
+}
+
+.brand-title{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.brand-description{
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.brand-btn{
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    padding: 21px 24px 20px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.brand-img-container{
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.brand-img{
+    max-width: 100%;
+}
